@@ -51,11 +51,21 @@ print("And another one: \(generator.random())")
 //下面的範圍定義了一個骰子遊戲和一個用於追蹤遊戲進度的朝狀協定的代理機制：
 //以下此類別為framework的現成類別(無法看到實作)
 class DiceGame {  //對比AVAudioPlayer類別
+    
+    //從行為是代理機制埋設的<步驟一>
+    //巢狀協定 對比AVAudioPlayerDelegate
+    //DiceGame Delegate協定用來追蹤骰子遊戲的進度
+    protocol Delegate: AnyObject {  //此協定比較好的命名方式硬為DiceGameDelegate
+        func gameDidStart(_ game: DiceGame)
+        func game(_ game: DiceGame, didEndRound round: Int, winner: Int?)
+        func gameDidEnd(_ game: DiceGame)
+    }
+    
     let sides: Int  //骰子面數
     let generator = LinearCongruentialGenerator()  //隨機數字產生器
     //此類別的代理人，以巢狀協定當作型別(此屬性需記錄實做過Delegate協定的型別實體)
     weak var delegate: Delegate?  //對應AVAudioPlayerDelegate
-    //此行為代理機制的埋設<步驟一>(將Delegate協定方法委託給別人實作)
+    //此行為代理機制的埋設<步驟二>(將Delegate協定方法委託給別人實作)
 
     init(sides: Int) {
         self.sides = sides
@@ -71,7 +81,7 @@ class DiceGame {  //對比AVAudioPlayer類別
     //DiceGame.Delegate協定提供了三種追蹤遊戲進度的代理方法。這三種方法被納入play(round:)方法中的遊戲邏輯的實作中。
     //當新遊戲開始，新回合開始或遊戲結束時，Dice類會呼叫其委託方法。
     func play(rounds: Int) {  //呼叫方法時，需傳入要進行幾回
-        //從行為代理機埋設的<步驟二>嘗試呼叫別人實作的代理方法
+        //從行為代理機埋設的<步驟三>嘗試在某一個方法中，呼叫別人要進行幾回遊戲
         //由代理人"執行"遊戲開始的代理方法
         delegate?.gameDidStart(self)
         //以傳入的遊戲回數來進行遊戲
@@ -87,14 +97,7 @@ class DiceGame {  //對比AVAudioPlayer類別
                 delegate?.game(self, didEndRound: round, winner: 2)
             }
         }
+        //遊戲結束時，執行遊戲結束的代理方法
         delegate?.gameDidEnd(self)
-    }
-
-    //巢狀協定 對比AVAudioPlayerDelegate
-    //DiceGame Delegate協定用來追蹤骰子遊戲的進度
-    protocol Delegate: AnyObject {  //此協定比較好的命名方式硬為DiceGameDelegate
-        func gameDidStart(_ game: DiceGame)
-        func game(_ game: DiceGame, didEndRound round: Int, winner: Int?)
-        func gameDidEnd(_ game: DiceGame)
     }
 }
