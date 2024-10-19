@@ -67,7 +67,7 @@ class DiceGame {  //對比AVAudioPlayer類別
         return Int(generator.random() * Double(sides)) + 1
     }
 
-
+    //每個玩家輪流擲骰子，
     func play(rounds: Int) {
         delegate?.gameDidStart(self)
         for round in 1...rounds {
@@ -85,6 +85,7 @@ class DiceGame {  //對比AVAudioPlayer類別
     }
 
     //巢狀協定 對比AVAudioPlayerDelegate
+    //DiceGame Delegate協定用來追蹤骰子遊戲的進度
     protocol Delegate: AnyObject {  //此協定比較好的命名方式硬為DiceGameDelegate
         func gameDidStart(_ game: DiceGame)
         func game(_ game: DiceGame, didEndRound round: Int, winner: Int?)
