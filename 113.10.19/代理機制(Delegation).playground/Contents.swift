@@ -137,3 +137,8 @@ class DiceGameTracker: DiceGame.Delegate {
         }
     }
 }
+
+let tracker = DiceGameTracker()  //對比ViewController的實體
+let game = DiceGame(sides:6)  //對比AVAudioPlayer的實體
+game.delegate = tracker  //對比audioPlayer.delegate = self
+game.play(rounds: 3)  //遊戲進行時，會嘗試呼叫代理方法
