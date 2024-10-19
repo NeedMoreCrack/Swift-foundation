@@ -47,7 +47,7 @@ print("Here's a random number: \(generator.random())")
 print("And another one: \(generator.random())")
 // Prints "And another one: 0.729023776863283"
 
-
+//--------------------代理機制設定--------------------
 //下面的範圍定義了一個骰子遊戲和一個用於追蹤遊戲進度的朝狀協定的代理機制：
 //以下此類別為framework的現成類別(無法看到實作)
 class DiceGame {  //對比AVAudioPlayer類別
@@ -99,5 +99,41 @@ class DiceGame {  //對比AVAudioPlayer類別
         }
         //遊戲結束時，執行遊戲結束的代理方法
         delegate?.gameDidEnd(self)
+    }
+}
+
+//--------------------代理機制使用--------------------
+//<步驟一>
+//下一個範例展示一個名為DiceGameTracker的類別(對比ViewController)，他採納Dice.Delegate協定：
+class DiceGameTracker: DiceGame.Delegate {
+    //玩家累積分數
+    var playerScore1 = 0
+    var playerScore2 = 0
+    func gameDidStart(_ game: DiceGame) {
+        print("Started a new game")
+        //將分數歸零
+        playerScore1 = 0
+        playerScore2 = 0
+    }
+    func game(_ game: DiceGame, didEndRound round: Int, winner: Int?) {
+        switch winner {
+            case 1:
+                playerScore1 += 1
+                print("Player 1 won round \(round)")
+            case 2:
+                playerScore2 += 1
+                print("Player 2 won round \(round)")
+            default:
+                print("The round was a draw")
+        }
+    }
+    func gameDidEnd(_ game: DiceGame) {
+        if playerScore1 == playerScore2 {
+            print("The game ended in a draw.")
+        } else if playerScore1 > playerScore2 {
+            print("Player 1 won!")
+        } else {
+            print("Player 2 won!")
+        }
     }
 }
