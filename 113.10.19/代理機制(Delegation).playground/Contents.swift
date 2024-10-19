@@ -55,7 +55,7 @@ class DiceGame {  //對比AVAudioPlayer類別
     let generator = LinearCongruentialGenerator()  //隨機數字產生器
     //此類別的代理人，以巢狀協定當作型別(此屬性需記錄實做過Delegate協定的型別實體)
     weak var delegate: Delegate?  //對應AVAudioPlayerDelegate
-    //此行為代理機制的埋設(將Delegate協定方法委託給別人實作)
+    //此行為代理機制的埋設<步驟一>(將Delegate協定方法委託給別人實作)
 
     init(sides: Int) {
         self.sides = sides
@@ -67,13 +67,19 @@ class DiceGame {  //對比AVAudioPlayer類別
         return Int(generator.random() * Double(sides)) + 1
     }
 
-    //每個玩家輪流擲骰子，
-    func play(rounds: Int) {
+    //每個玩家輪流擲骰子，骰子最高的玩家贏得這一輪
+    //DiceGame.Delegate協定提供了三種追蹤遊戲進度的代理方法。這三種方法被納入play(round:)方法中的遊戲邏輯的實作中。
+    //當新遊戲開始，新回合開始或遊戲結束時，Dice類會呼叫其委託方法。
+    func play(rounds: Int) {  //呼叫方法時，需傳入要進行幾回
+        //從行為代理機埋設的<步驟二>嘗試呼叫別人實作的代理方法
+        //由代理人"執行"遊戲開始的代理方法
         delegate?.gameDidStart(self)
+        //以傳入的遊戲回數來進行遊戲
         for round in 1...rounds {
-            let player1 = roll()
-            let player2 = roll()
-            if player1 == player2 {
+            //假設只有兩個玩家，分別丟出一個骰子
+            let player1 = roll()  //玩家一的骰子點數
+            let player2 = roll()  //玩家二的骰子點數
+            if player1 == player2 {  //兩個玩家丟出一樣的骰子點數(平手)，沒有勝出者
                 delegate?.game(self, didEndRound: round, winner: nil)
             } else if player1 > player2 {
                 delegate?.game(self, didEndRound: round, winner: 1)
