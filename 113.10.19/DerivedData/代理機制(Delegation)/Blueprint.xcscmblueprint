@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3F0BE5C0327CB94E81ACDA92B65F6FA5E8AD2CEE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3F0BE5C0327CB94E81ACDA92B65F6FA5E8AD2CEE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E7D3119F-6DEB-4AAB-B885-CB516042B4F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3F0BE5C0327CB94E81ACDA92B65F6FA5E8AD2CEE" : "Swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "代理機制(Delegation)",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Swift foundation\/113.10.19\/代理機制(Delegation).playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NeedMoreCrack\/Swift-advanced.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F0BE5C0327CB94E81ACDA92B65F6FA5E8AD2CEE"
+    }
+  ]
+}

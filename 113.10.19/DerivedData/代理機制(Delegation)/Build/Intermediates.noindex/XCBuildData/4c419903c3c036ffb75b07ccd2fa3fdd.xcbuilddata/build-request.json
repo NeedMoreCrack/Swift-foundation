@@ -1,0 +1,105 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "dynamicReplacement"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "PLAYGROUND-PRODUCT:代理機制_Delegation__Sources-PLAYGROUND-TARGET:/Users/chuanchiawei/Desktop/Swift/113.10.19/代理機制(Delegation).playground",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "x86_64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator18.0",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "x86_64"
+          ],
+          "targetArchitecture" : "x86_64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Products",
+          "derivedDataPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Index.noindex/PrecompiledHeaders",
+          "pchPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad14,5-B",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.0",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPad14,5-B",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Intermediates.noindex/Playgrounds/代理機制_Delegation_/ReleaseProducts",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Intermediates.noindex/Playgrounds/代理機制_Delegation_/Intermediates.noindex",
+              "SYMROOT" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Intermediates.noindex/Playgrounds/代理機制_Delegation_/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "87287A44-295A-488C-BB62-35DB98B0396B",
+              "TARGET_DEVICE_MODEL" : "iPad14,5",
+              "TARGET_DEVICE_OS_VERSION" : "18.0",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/代理機制(Delegation).playground",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Products",
+      "derivedDataPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/chuanchiawei/Desktop/Swift/113.10.19/DerivedData/代理機制(Delegation)/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad14,5-B",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPad14,5-B",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "87287A44-295A-488C-BB62-35DB98B0396B",
+          "TARGET_DEVICE_MODEL" : "iPad14,5",
+          "TARGET_DEVICE_OS_VERSION" : "18.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
