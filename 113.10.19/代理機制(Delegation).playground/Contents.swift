@@ -53,14 +53,16 @@ print("And another one: \(generator.random())")
 class DiceGame {  //對比AVAudioPlayer類別
     let sides: Int  //骰子面數
     let generator = LinearCongruentialGenerator()  //隨機數字產生器
+    //此類別的代理人，以巢狀協定當作型別(此屬性需記錄實做過Delegate協定的型別實體)
     weak var delegate: Delegate?  //對應AVAudioPlayerDelegate
-
+    //此行為代理機制的埋設(將Delegate協定方法委託給別人實作)
 
     init(sides: Int) {
         self.sides = sides
     }
 
 
+    //丟骰子的方法(隨機回傳骰子的其中一面)
     func roll() -> Int {
         return Int(generator.random() * Double(sides)) + 1
     }
