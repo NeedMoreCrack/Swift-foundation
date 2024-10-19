@@ -6,6 +6,90 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
+		<key>2A9078F6-8F36-4B33-A78B-F085EC1ACCDF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2A9078F6-8F36-4B33-A78B-F085EC1ACCDF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>代理機制(Delegation)</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>代理機制(Delegation) (Playground)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build 代理機制(Delegation) (Playground)</string>
+			<key>timeStartedRecording</key>
+			<real>751018941.76449203</real>
+			<key>timeStoppedRecording</key>
+			<real>751018941.87528598</real>
+			<key>title</key>
+			<string>Build 代理機制(Delegation) (Playground)</string>
+			<key>uniqueIdentifier</key>
+			<string>2A9078F6-8F36-4B33-A78B-F085EC1ACCDF</string>
+		</dict>
+		<key>328C81A1-E44B-4CAA-8A97-624EC779DA04</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>328C81A1-E44B-4CAA-8A97-624EC779DA04.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>代理機制(Delegation)</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>代理機制(Delegation) (Playground)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build 代理機制(Delegation) (Playground)</string>
+			<key>timeStartedRecording</key>
+			<real>751018958.24031997</real>
+			<key>timeStoppedRecording</key>
+			<real>751018958.27752304</real>
+			<key>title</key>
+			<string>Build 代理機制(Delegation) (Playground)</string>
+			<key>uniqueIdentifier</key>
+			<string>328C81A1-E44B-4CAA-8A97-624EC779DA04</string>
+		</dict>
 		<key>379F613F-72F7-4ECE-86AB-92CE78E13F16</key>
 		<dict>
 			<key>className</key>
@@ -89,6 +173,48 @@
 			<string>Build 代理機制(Delegation) (Playground)</string>
 			<key>uniqueIdentifier</key>
 			<string>3D01F363-0602-4941-98E7-C58501144D34</string>
+		</dict>
+		<key>ABF6DD42-EF70-4D37-822E-C36C9E56A532</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ABF6DD42-EF70-4D37-822E-C36C9E56A532.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>代理機制(Delegation)</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>代理機制(Delegation) (Playground)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Build 代理機制(Delegation) (Playground)</string>
+			<key>timeStartedRecording</key>
+			<real>751018945.10319901</real>
+			<key>timeStoppedRecording</key>
+			<real>751018945.15212905</real>
+			<key>title</key>
+			<string>Build 代理機制(Delegation) (Playground)</string>
+			<key>uniqueIdentifier</key>
+			<string>ABF6DD42-EF70-4D37-822E-C36C9E56A532</string>
 		</dict>
 	</dict>
 </dict>
