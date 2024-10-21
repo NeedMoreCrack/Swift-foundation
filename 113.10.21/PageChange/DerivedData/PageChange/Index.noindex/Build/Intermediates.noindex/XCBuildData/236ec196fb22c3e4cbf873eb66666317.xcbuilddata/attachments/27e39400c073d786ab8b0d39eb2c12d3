@@ -1,0 +1,27 @@
+{
+  "" : {
+    "dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Intermediates.noindex/PageChange.build/Debug-iphoneos/PageChange.build/Objects-normal/arm64/PageChange-master.d",
+    "diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Intermediates.noindex/PageChange.build/Debug-iphoneos/PageChange.build/Objects-normal/arm64/PageChange-master.dia",
+    "emit-module-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Intermediates.noindex/PageChange.build/Debug-iphoneos/PageChange.build/Objects-normal/arm64/PageChange-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Intermediates.noindex/PageChange.build/Debug-iphoneos/PageChange.build/Objects-normal/arm64/PageChange-master-emit-module.dia",
+    "swift-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Intermediates.noindex/PageChange.build/Debug-iphoneos/PageChange.build/Objects-normal/arm64/PageChange-master.swiftdeps"
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Intermediates.noindex/PageChange.build/Debug-iphoneos/PageChange.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/AppDelegate.swift" : {
+
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/FirstViewController.swift" : {
+
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/OtherViewController.swift" : {
+
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/SceneDelegate.swift" : {
+
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/SecondViewController.swift" : {
+
+  }
+}

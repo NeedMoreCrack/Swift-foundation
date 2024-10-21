@@ -1,0 +1,58 @@
+{
+  "" : {
+    "diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/PageChange-master.dia",
+    "emit-module-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/PageChange-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/PageChange-master-emit-module.dia",
+    "swift-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/PageChange-master.swiftdeps"
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/AppDelegate.swift" : {
+    "const-values" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/FirstViewController.swift" : {
+    "const-values" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/FirstViewController.swiftconstvalues",
+    "dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/FirstViewController.d",
+    "diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/FirstViewController.dia",
+    "index-unit-output-path" : "/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/FirstViewController.o",
+    "llvm-bc" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/FirstViewController.bc",
+    "object" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/FirstViewController.o",
+    "swift-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/FirstViewController.swiftdeps",
+    "swiftmodule" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/FirstViewController~partial.swiftmodule"
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/SceneDelegate.swift" : {
+    "const-values" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SceneDelegate.d",
+    "diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SceneDelegate.dia",
+    "index-unit-output-path" : "/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SceneDelegate.o",
+    "llvm-bc" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SceneDelegate.bc",
+    "object" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange/SecondViewController.swift" : {
+    "const-values" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SecondViewController.swiftconstvalues",
+    "dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SecondViewController.d",
+    "diagnostics" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SecondViewController.dia",
+    "index-unit-output-path" : "/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SecondViewController.o",
+    "llvm-bc" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SecondViewController.bc",
+    "object" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SecondViewController.o",
+    "swift-dependencies" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SecondViewController.swiftdeps",
+    "swiftmodule" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex/PageChange.build/Debug-iphonesimulator/PageChange.build/Objects-normal/x86_64/SecondViewController~partial.swiftmodule"
+  }
+}

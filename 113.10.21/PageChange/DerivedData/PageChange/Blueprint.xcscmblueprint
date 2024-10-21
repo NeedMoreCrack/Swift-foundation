@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "53A321D4141414146658F96DFC829B238C7143FD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3F0BE5C0327CB94E81ACDA92B65F6FA5E8AD2CEE" : 0,
+    "53A321D4141414146658F96DFC829B238C7143FD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1750839F-C575-4977-82D8-9CD5980C9736",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3F0BE5C0327CB94E81ACDA92B65F6FA5E8AD2CEE" : "",
+    "53A321D4141414146658F96DFC829B238C7143FD" : "Swift%20foundation\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PageChange",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "113.10.21\/PageChange\/PageChange.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NeedMoreCrack\/Swift-advanced.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F0BE5C0327CB94E81ACDA92B65F6FA5E8AD2CEE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NeedMoreCrack\/Swift-foundation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53A321D4141414146658F96DFC829B238C7143FD"
+    }
+  ]
+}

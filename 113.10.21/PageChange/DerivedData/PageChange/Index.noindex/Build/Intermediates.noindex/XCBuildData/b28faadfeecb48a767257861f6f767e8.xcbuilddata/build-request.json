@@ -1,0 +1,59 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "3f3ce30a51c1a9b3004c631aa800cc6f48914ccb41967724c014bcca1bfa777a"
+    }
+  ],
+  "containerPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/PageChange.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Build/Products",
+      "pchPath" : "/Users/chuanchiawei/Desktop/Swift/Swift foundation/113.10.21/PageChange/DerivedData/PageChange/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
